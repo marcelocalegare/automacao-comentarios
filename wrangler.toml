@@ -1,0 +1,21 @@
+name = "insta-comment-dm"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+GRAPH_VERSION = "v23.0"   # confira a versão atual na doc da Meta
+IG_USER_ID = "17841479894544490"
+
+# Evita responder o mesmo comentário duas vezes e aplica rate limit.
+[[kv_namespaces]]
+binding = "SEEN"
+id = "8cd83e41a3044cf9843ed0760145f252"
+
+# Histórico de eventos para o painel em /dashboard.
+[[d1_databases]]
+binding = "DB"
+database_name = "insta-comment-dm-db"
+database_id = "bacb2cde-ed82-4edb-8bf3-0caf210e92b5"
+
+# Segredos (NÃO coloque aqui — use os comandos do README):
+#   VERIFY_TOKEN, APP_SECRET, IG_TOKEN, DASHBOARD_PASSWORD
