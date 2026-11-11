@@ -33,9 +33,9 @@ const RULES = [
     ],
     mediaIds: [],
     dm: [
-      "Oi! 👋 Aqui está o link que você pediu:\nhttps://palpitesmega.tech",
-      "E aí! Segue o link certinho pra você:\nhttps://palpitesmega.tech",
-      "Opa, chegou! Aqui está o link:\nhttps://palpitesmega.tech",
+      "Oi! 👋 Aqui está o link que você pediu:\nhttps://seulink.com",
+      "E aí! Segue o link certinho pra você:\nhttps://seulink.com",
+      "Opa, chegou! Aqui está o link:\nhttps://seulink.com"
     ],
     publicReply: ["Te mandei no direct! 📩", "Olha a caixinha de mensagens! 📩", "Te chamei no direct! 📩"], // "" para não responder publicamente
   },
